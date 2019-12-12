@@ -2,6 +2,7 @@
 Requiers pygame, os, sys, time
 Press f5 to start
 todo:
-- random stories for a pattern text
-- better effects
 - change start to onclick
+- random stories for a pattern text
+- check every char
+- better effects
