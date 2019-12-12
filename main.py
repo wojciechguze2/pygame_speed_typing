@@ -2,7 +2,7 @@ import pygame
 import os, sys
 import time
 import random
-from random_stories import random_story
+from random_texts import random_story
 print(random_story)
 pygame.init()
 os.environ['SDL_VIDEO_WINDOW_POS'] = '100, 100'
