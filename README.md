@@ -4,3 +4,4 @@ Press f5 to start
 todo:
 - random stories for a pattern text
 - better effects
+- change start to onclick
