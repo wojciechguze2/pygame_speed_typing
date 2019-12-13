@@ -1,4 +1,4 @@
-en_stories = {
+en_texts = {
         1: "Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first released in 1991, Python's design philosophy emphasizes code readability with its notable use of significant whitespace. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.",
         2: "R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing.",
         3: "The South Lake Union Streetcar is a streetcar route in Seattle, Washington, United States. Traveling 1.3 miles (2.1 km), it connects downtown to the South Lake Union neighborhood on Westlake Avenue, Terry Avenue, and Valley Street.",
@@ -11,4 +11,4 @@ en_stories = {
         10: "Formed mostly as the result of volcanic eruptions from geologic subduction between Sunda Plate and Australian Plate, Java is the 13th largest island in the world and the fifth largest in Indonesia by landmass at about 138,800 square kilometres.",
         }
 import random
-number_of_story, random_story = random.choice(list(en_stories.items()))
+number_of_tect, random_text = random.choice(list(en_texts.items()))
