@@ -2,8 +2,8 @@ import pygame
 import os, sys
 import time
 import random
-from random_stories import random_story
-print(random_story)
+from random_texts import random_text
+print(random_text)
 pygame.init()
 os.environ['SDL_VIDEO_WINDOW_POS'] = '100, 100'
 W=1080
@@ -52,7 +52,7 @@ while running:
     if timer_started == True:
 
         timer_text = myfont.render("Time: %.2f" % (time.time()-start_time), 1, (0,255,0))
-        pattern_text = random_story
+        pattern_text = random_text
         pattern_text_list = pattern_text.split()
         pattern_text_lines = ["" for x in range(9)]
         input_text = "".join(input_text_lines)
