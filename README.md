@@ -2,5 +2,6 @@
 Requiers pygame, os, sys, time
 Press f5 to start
 todo:
-- check every char
 - better effects
+- more texts
+- possibility to faster deletion by holding backspace
