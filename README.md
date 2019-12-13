@@ -5,3 +5,4 @@ todo:
 - better effects
 - more texts
 - possibility to faster deletion by holding backspace
+- add comments
