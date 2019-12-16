@@ -50,12 +50,12 @@ while running:
     screen.fill((0,0,0))
     pygame.draw.rect(screen, (255,255,255), pattern_text_rect)
     if timer_started == True:
-
         timer_text = myfont.render("Time: %.2f" % (time.time()-start_time), 1, (0,255,0))
         pattern_text = random_text
         pattern_text_list = pattern_text.split()
         pattern_text_lines = ["" for x in range(9)]
         input_text = "".join(input_text_lines)
+        cpm_text = myfont.render("CPM: %.2f" % (len(input_text)/((time.time()-start_time)/60)), 1, (0,255,0))     
         screen.blit(text_pattern_text, (pattern_text_rect.x*2.5, pattern_text_rect.y-22))
         c = 0
         for word in pattern_text_list:
@@ -76,7 +76,8 @@ while running:
             pattern_text_blit = myfont.render(line, 1, (0,0,0))
             screen.blit(pattern_text_blit, (pattern_text_rect.x +5, pattern_text_rect.y +5 + c))
             c+=20
-        screen.blit(timer_text, (input_text_rect.x*2.5, H-30))
+        screen.blit(timer_text, (input_text_rect.x*2.2, H-30))
+        screen.blit(cpm_text, (input_text_rect.x*2.8, H-30))
         if pattern_text == input_text:
             print("True")
             print("time: %.2f" % (time.time() - start_time))
