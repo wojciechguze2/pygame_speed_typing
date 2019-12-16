@@ -11,4 +11,4 @@ en_texts = {
         10: "Formed mostly as the result of volcanic eruptions from geologic subduction between Sunda Plate and Australian Plate, Java is the 13th largest island in the world and the fifth largest in Indonesia by landmass at about 138,800 square kilometres.",
         }
 import random
-number_of_tect, random_text = random.choice(list(en_texts.items()))
+number_of_text, random_text = random.choice(list(en_texts.items()))
